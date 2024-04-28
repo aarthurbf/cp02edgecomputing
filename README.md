@@ -156,7 +156,8 @@ void loop() {
 }
 ~~~
 
-![Foto do projeto]
+![imagem_2024-04-28_142434117](https://github.com/aarthurbf/cp02edgecomputing/assets/161460625/1c50b333-08d4-486d-9651-0cc4621bd1ca)
+
 
 ## Funcionamento Ambiental
 Este projeto é ideal para vinícolas, pois monitora a temperatura, a umidade e a luminosidade do ambiente, que são fatores críticos para a produção de vinhos de alta qualidade. O sistema exibe as condições ambientais em um display LCD e usa LEDs e um buzzer para alertar quando as condições estão fora do ideal.
