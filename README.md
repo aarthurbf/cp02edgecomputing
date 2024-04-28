@@ -20,7 +20,7 @@ Os componentes necessários para este projeto são:
 * LEDs (verde, laranja e vermelho)
 * Buzzer
 
-Como Montar
+## Como Montar
 1. Conecte o sensor DHT22 ao pino 2 do Arduino.
 2. Conecte o sensor LDR ao pino A0 do Arduino.
 3. Conecte o display LCD aos pinos 7, 8, 9, 10, 11 e 12 do Arduino.
