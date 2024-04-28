@@ -2,7 +2,7 @@
 
 # Projeto de Monitoramento Ambiental com Arduino
 
-### Link para o simulador:
+## Link para o simulador:
 <https://wokwi.com/projects/396430011841560577>
 
 ## Descrição do Projeto
@@ -26,6 +26,9 @@ Como Montar
 3. Conecte o display LCD aos pinos 7, 8, 9, 10, 11 e 12 do Arduino.
 4. Conecte os LEDs verde, laranja e vermelho aos pinos 3, 4 e 5 do Arduino, respectivamente.
 5. Conecte o buzzer ao pino 6 do Arduino.
+
+## Imagem do projeto
+![imagem_2024-04-28_142434117](https://github.com/aarthurbf/cp02edgecomputing/assets/161460625/1c50b333-08d4-486d-9651-0cc4621bd1ca)
 
 ## Código
 Aqui está o código Arduino usado neste projeto:
@@ -155,9 +158,6 @@ void loop() {
   delay(5000);
 }
 ~~~
-
-![imagem_2024-04-28_142434117](https://github.com/aarthurbf/cp02edgecomputing/assets/161460625/1c50b333-08d4-486d-9651-0cc4621bd1ca)
-
 
 ## Funcionamento Ambiental
 Este projeto é ideal para vinícolas, pois monitora a temperatura, a umidade e a luminosidade do ambiente, que são fatores críticos para a produção de vinhos de alta qualidade. O sistema exibe as condições ambientais em um display LCD e usa LEDs e um buzzer para alertar quando as condições estão fora do ideal.
