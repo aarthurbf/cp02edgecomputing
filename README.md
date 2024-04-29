@@ -33,7 +33,7 @@ Os componentes necessários para este projeto são:
 ## Código
 Aqui está o código Arduino usado neste projeto:
 ~~~arduino
-  // Inclui as bibliotecas para o sensor DHT e o display LCD
+// Inclui as bibliotecas para o sensor DHT e o display LCD
 #include <DHT.h>
 #include <LiquidCrystal.h>
 
@@ -62,6 +62,18 @@ void setup() {
 
   // Inicia o sensor DHT
   dht.begin();
+
+  // Exibe a mensagem inicial
+  lcd.setCursor(0, 0);
+  lcd.print("NCREATIVE");
+  delay(2000); // Atraso de 2 segundos
+
+  // Apaga a mensagem em forma de animação
+  for (int posicao = 0; posicao < 9; posicao++) {
+    lcd.setCursor(posicao, 0);
+    lcd.print(" "); // Substitui cada caractere por um espaço
+    delay(500); // Atraso de 0.5 segundo para a animação
+  }
 }
 
 void loop() {
